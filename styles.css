@@ -1,0 +1,67 @@
+:root {
+    background-color: rgb(13, 15, 5);
+  }
+  
+  #gameBoard {
+    margin-left: 35%;
+    margin-top: 3%;
+  }
+  
+  .b {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    font-size: 50px;
+    border: none;
+    border-radius: 2px;
+  }
+  
+  .b:hover {
+    background-color: rgb(100, 100, 100);
+  }
+  
+  #one,
+  #two,
+  #three {
+    margin-bottom: 6px;
+  }
+  
+  #four,
+  #five,
+  #six {
+    margin-bottom: 6px;
+  }
+  
+  #one,
+  #four,
+  #seven {
+    margin-right: 2px;
+  }
+  
+  #three,
+  #six,
+  #nine {
+    margin-left: 2px;
+  }
+  
+  #playerInfo, #playerInfo1, #title {
+  color: whitesmoke;
+  margin-left: 37%;
+  font-family: fantasy; 
+  font-size: 40px;
+  }
+  
+  #winner, #loser {
+      color: whitesmoke;
+      margin-left: 37%;
+      font-family: fantasy;
+      margin-top: 70px;
+      font-size: 40px;
+  }
+  
+  #tie {
+    color: whitesmoke;
+    font-family: fantasy;
+    margin-left: 40%;
+    
+  }
